@@ -1,10 +1,10 @@
 import './App.css';
-import ProductDetails from './components/ProductDetails';
+import Parent from './components/Parent';
 
 function App() {
   return (
     <div>
-      <ProductDetails />
+      <Parent />
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function ProductInfo(props) {
     return (
@@ -9,4 +10,8 @@ function ProductInfo(props) {
     );
 };
 
+ProductInfo.propTypes = {
+    name: PropTypes.string.isRequired,
+    price: PropTypes.string.isRequired,
+};
 export default ProductInfo;
