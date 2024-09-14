@@ -1,10 +1,10 @@
 import './App.css';
-import Parent from './components/Parent';
+import ProductList from './components/ProductList';
 
 function App() {
   return (
     <div>
-      <Parent />
+      <ProductList />
     </div>
   );
 };

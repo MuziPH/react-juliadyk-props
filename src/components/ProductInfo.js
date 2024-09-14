@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function ProductInfo(props) {
+function ProductInfo({ product }) {
     return (
         <div>
-            <h2>{props.name}</h2>
-            <p>{props.price}</p>
+            <h2>{product.name}</h2>
+            <p>{product.price}</p>
         </div>
     );
 };
